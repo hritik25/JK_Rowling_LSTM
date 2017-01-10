@@ -13,7 +13,7 @@ Theano, Numpy
 <b>Number of training sentences</b> = 82725 ( with average length of 15 words )
 
 ## Results and Performance
-<b> The model uses categorical crossy-entropy cost on softmax output, and nesterov momentum update for error back-propagation. </b> 
+<b> The model uses categorical crossy-entropy cost on softmax output, and nesterov momentum update for error back-propagation. It is being trained currently ( on a GPU with CUDA compute capability = 3.0 ), and a few representative sentences it could generate will be posted here.</b> 
 ## References:
 1. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/
